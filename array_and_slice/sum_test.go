@@ -9,6 +9,6 @@ func TestSum(t *testing.T) {
 	excepted := 15
 
 	if got != excepted {
-		t.Errorf("got %q, excepted %q", got, excepted)
+		t.Errorf("got %d, excepted %d", got, excepted)
 	}
 }
