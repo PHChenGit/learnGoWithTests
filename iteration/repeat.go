@@ -1,8 +1,10 @@
 package iteration
 
+const repeatedTimes = 5
+
 func Repeat(ch string) string {
 	var repeatedStr string
-	for i := 0; i < 5; i++ {
+	for i := 0; i < repeatedTimes; i++ {
 		repeatedStr = repeatedStr + ch
 	}
 	return repeatedStr
