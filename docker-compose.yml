@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/var/www/lear_go_with_tests/
+    command: "tail -f /dev/null"
+    expose:
+      - "8000"
